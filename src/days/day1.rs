@@ -6,7 +6,7 @@ pub fn run() {
 }
 
 pub fn part2() {
-    let input: Vec<u32> = get_input::<Day1Input>("day-1").0;
+    let input: Vec<u32> = get_input::<Input>("day-1").0;
     let mut averaged = Vec::new();
     for i in 2..input.len() {
         averaged.push(input[i - 2] + input[i - 1] + input[i]);
@@ -21,7 +21,7 @@ pub fn part2() {
 }
 
 fn part1() {
-    let input: Vec<u32> = get_input::<Day1Input>("day-1").0;
+    let input: Vec<u32> = get_input::<Input>("day-1").0;
     let mut count = 0;
     for i in 1..input.len() {
         if input[i] > input[i - 1] {
@@ -32,9 +32,9 @@ fn part1() {
 }
 
 #[derive(Clone, Deserialize)]
-struct Day1Input(Vec<u32>);
+struct Input(Vec<u32>);
 
-impl Asset for Day1Input {
+impl Asset for Input {
     const EXTENSION: &'static str = "ron";
     type Loader = RonLoader;
 }

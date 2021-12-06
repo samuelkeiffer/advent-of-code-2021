@@ -6,8 +6,8 @@ pub fn run() {
 }
 
 fn part2() {
-    let numbers: Vec<u32> = get_input::<Day4Input>("day-4").0;
-    let boards_in: Vec<u32> = get_input::<Day4Input>("day-4").1;
+    let numbers: Vec<u32> = get_input::<Input>("day-4").0;
+    let boards_in: Vec<u32> = get_input::<Input>("day-4").1;
     let mut boards: Vec<([[(u32, bool); 5]; 5], bool)> = Vec::new();
     for i in 0..(boards_in.len() / 25) {
         let new_line = [(0, false); 5];
@@ -84,8 +84,8 @@ fn part2() {
 }
 
 fn part1() {
-    let numbers: Vec<u32> = get_input::<Day4Input>("day-4").0;
-    let boards_in: Vec<u32> = get_input::<Day4Input>("day-4").1;
+    let numbers: Vec<u32> = get_input::<Input>("day-4").0;
+    let boards_in: Vec<u32> = get_input::<Input>("day-4").1;
     let mut boards: Vec<[[(u32, bool); 5]; 5]> = Vec::new();
     for i in 0..(boards_in.len() / 25) {
         let new_line = [(0, false); 5];
@@ -140,9 +140,9 @@ fn part1() {
 }
 
 #[derive(Clone, Deserialize)]
-struct Day4Input(Vec<u32>, Vec<u32>);
+struct Input(Vec<u32>, Vec<u32>);
 
-impl Asset for Day4Input {
+impl Asset for Input {
     const EXTENSION: &'static str = "ron";
     type Loader = RonLoader;
 }

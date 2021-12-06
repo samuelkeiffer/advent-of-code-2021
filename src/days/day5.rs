@@ -6,7 +6,7 @@ pub fn run() {
 }
 
 fn part2() {
-    let input: Vec<((u32, u32), (u32, u32))> = get_input::<Day5Input>("day-5").0;
+    let input: Vec<((u32, u32), (u32, u32))> = get_input::<Input>("day-5").0;
     let vent_spots = input.iter().flat_map(|((x1, y1), (x2, y2))| {
         if x1 == x2 {
             if y1 > y2 {
@@ -44,7 +44,7 @@ fn part2() {
 }
 
 fn part1() {
-    let input: Vec<((u32, u32), (u32, u32))> = get_input::<Day5Input>("day-5").0;
+    let input: Vec<((u32, u32), (u32, u32))> = get_input::<Input>("day-5").0;
     let vent_spots = input.iter().flat_map(|((x1, y1), (x2, y2))| {
         if x1 == x2 {
             if y1 > y2 {
@@ -72,9 +72,9 @@ fn part1() {
 }
 
 #[derive(Clone, Deserialize)]
-struct Day5Input(Vec<((u32, u32), (u32, u32))>);
+struct Input(Vec<((u32, u32), (u32, u32))>);
 
-impl Asset for Day5Input {
+impl Asset for Input {
     const EXTENSION: &'static str = "ron";
     type Loader = RonLoader;
 }

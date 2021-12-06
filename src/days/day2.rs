@@ -6,7 +6,7 @@ pub fn run() {
 }
 
 fn part2() {
-    let input: Vec<(String, u32)> = get_input::<Day2Input>("day-2").0;
+    let input: Vec<(String, u32)> = get_input::<Input>("day-2").0;
     let mut pos = 0;
     let mut depth = 0;
     let mut aim = 0;
@@ -26,7 +26,7 @@ fn part2() {
 }
 
 fn part1() {
-    let input: Vec<(String, u32)> = get_input::<Day2Input>("day-2").0;
+    let input: Vec<(String, u32)> = get_input::<Input>("day-2").0;
     let mut pos = 0;
     let mut depth = 0;
     for (dir, dist) in input {
@@ -42,9 +42,9 @@ fn part1() {
 }
 
 #[derive(Clone, Deserialize)]
-struct Day2Input(Vec<(String, u32)>);
+struct Input(Vec<(String, u32)>);
 
-impl Asset for Day2Input {
+impl Asset for Input {
     const EXTENSION: &'static str = "ron";
     type Loader = RonLoader;
 }
