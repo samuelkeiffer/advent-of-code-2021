@@ -12,7 +12,7 @@ fn part2() {
         let entry = fish.entry(a).or_insert(0);
         *entry += 1;
     }
-    for i in 0..256 {
+    for _ in 0..256 {
         let mut new_fish = BTreeMap::new();
         for (&time, fishes) in fish.iter() {
             if *time > 0 {
@@ -44,7 +44,7 @@ fn part2() {
 
 fn part1() {
     let mut fish: Vec<u64> = get_input::<Input>("day-6").0;
-    for i in 0..80 {
+    for _ in 0..80 {
         let mut new_fish = Vec::new();
         fish.iter_mut().for_each(|fish| {
             if *fish > 0 {

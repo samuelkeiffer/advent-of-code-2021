@@ -5,13 +5,9 @@ pub fn run() {
     part2();
 }
 
-fn part2() {
-    let input: Vec<_> = get_input::<Input>("day-").0;
-}
+fn part2() {}
 
-fn part1() {
-    let input: Vec<_> = get_input::<Input>("day-").0;
-}
+fn part1() {}
 
 #[derive(Clone, Deserialize)]
 struct Input(Vec<u32>);
