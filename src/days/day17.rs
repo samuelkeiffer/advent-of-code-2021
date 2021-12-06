@@ -14,7 +14,7 @@ fn part1() {
 }
 
 #[derive(Clone, Deserialize)]
-struct Input(Vec<_>);
+struct Input(Vec<u32>);
 
 impl Asset for Input {
     const EXTENSION: &'static str = "ron";
