@@ -83,13 +83,7 @@ fn closing_char(a: char) -> char {
 }
 
 fn is_open(a: char) -> bool {
-    match a {
-        '(' => true,
-        '[' => true,
-        '{' => true,
-        '<' => true,
-        _ => false,
-    }
+    matches!(a, '(' | '[' | '{' | '<')
 }
 
 fn error_points(a: char) -> u32 {

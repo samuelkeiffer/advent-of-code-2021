@@ -57,11 +57,7 @@ fn part2() {
         let entry = count.entry(spot).or_insert(0);
         *entry += 1;
     }
-    let number = count
-        .iter()
-        .filter(|(_, num)| **num > 1)
-        .collect::<Vec<_>>()
-        .len();
+    let number = count.iter().filter(|(_, num)| **num > 1).count();
     dbg!(number);
 }
 
@@ -104,11 +100,7 @@ fn part1() {
         let entry = count.entry(spot).or_insert(0);
         *entry += 1;
     }
-    let number = count
-        .iter()
-        .filter(|(_, num)| **num > 1)
-        .collect::<Vec<_>>()
-        .len();
+    let number = count.iter().filter(|(_, num)| **num > 1).count();
     dbg!(number);
 }
 

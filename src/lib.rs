@@ -1,4 +1,6 @@
 #![feature(bool_to_option)]
+#![allow(clippy::type_complexity)]
+#![allow(clippy::needless_range_loop)]
 
 pub use assets_manager::{loader::RonLoader, Asset, AssetCache};
 pub use itertools::Itertools;

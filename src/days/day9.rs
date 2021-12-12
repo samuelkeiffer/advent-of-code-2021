@@ -18,25 +18,17 @@ fn part2() {
             let check_down = i < (rows - 1);
             let check_left = j > 0;
             let check_right = j < (cols - 1);
-            if check_up {
-                if height >= input[i - 1][j] {
-                    is_low = false;
-                }
+            if check_up && height >= input[i - 1][j] {
+                is_low = false;
             }
-            if check_down {
-                if height >= input[i + 1][j] {
-                    is_low = false;
-                }
+            if check_down && height >= input[i + 1][j] {
+                is_low = false;
             }
-            if check_left {
-                if height >= input[i][j - 1] {
-                    is_low = false;
-                }
+            if check_left && height >= input[i][j - 1] {
+                is_low = false;
             }
-            if check_right {
-                if height >= input[i][j + 1] {
-                    is_low = false;
-                }
+            if check_right && height >= input[i][j + 1] {
+                is_low = false;
             }
             if is_low {
                 low_points.push((i, j));
@@ -113,25 +105,17 @@ fn part1() {
             let check_down = i < (rows - 1);
             let check_left = j > 0;
             let check_right = j < (cols - 1);
-            if check_up {
-                if height >= input[i - 1][j] {
-                    is_low = false;
-                }
+            if check_up && height >= input[i - 1][j] {
+                is_low = false;
             }
-            if check_down {
-                if height >= input[i + 1][j] {
-                    is_low = false;
-                }
+            if check_down && height >= input[i + 1][j] {
+                is_low = false;
             }
-            if check_left {
-                if height >= input[i][j - 1] {
-                    is_low = false;
-                }
+            if check_left && height >= input[i][j - 1] {
+                is_low = false;
             }
-            if check_right {
-                if height >= input[i][j + 1] {
-                    is_low = false;
-                }
+            if check_right && height >= input[i][j + 1] {
+                is_low = false;
             }
             if is_low {
                 low_points.push(1 + height);
