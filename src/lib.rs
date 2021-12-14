@@ -1,4 +1,5 @@
 #![feature(bool_to_option)]
+#![feature(string_remove_matches)]
 #![allow(clippy::type_complexity)]
 #![allow(clippy::needless_range_loop)]
 
