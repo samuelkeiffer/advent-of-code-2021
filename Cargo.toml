@@ -8,3 +8,4 @@ edition = "2018"
 assets_manager = {version = "0.6.0", features = ["ron"]}
 serde = { version = "1.0.110", features = ["derive"] }
 itertools = "0.9.0"
+pathfinding = "3.0.5"
