@@ -4,6 +4,9 @@ version = "0.1.0"
 authors = ["Sam <samuelkeiffer@gmail.com>"]
 edition = "2018"
 
+[profile.dev]
+opt-level = 3
+
 [dependencies]
 assets_manager = {version = "0.6.0", features = ["ron"]}
 serde = { version = "1.0.110", features = ["derive"] }
