@@ -1,0 +1,10 @@
+([Pair(Pair(Pair(Single(0),Pair(Single(5),Single(8))),Pair(Pair(Single(1),Single(7)),Pair(Single(9),Single(6)))),Pair(Pair(Single(4),Pair(Single(1),Single(2))),Pair(Pair(Single(1),Single(4)),Single(2)))),
+Pair(Pair(Pair(Single(5),Pair(Single(2),Single(8))),Single(4)),Pair(Single(5),Pair(Pair(Single(9),Single(9)),Single(0)))),
+Pair(Single(6),Pair(Pair(Pair(Single(6),Single(2)),Pair(Single(5),Single(6))),Pair(Pair(Single(7),Single(6)),Pair(Single(4),Single(7))))),
+Pair(Pair(Pair(Single(6),Pair(Single(0),Single(7))),Pair(Single(0),Single(9))),Pair(Single(4),Pair(Single(9),Pair(Single(9),Single(0))))),
+Pair(Pair(Pair(Single(7),Pair(Single(6),Single(4))),Pair(Single(3),Pair(Single(1),Single(3)))),Pair(Pair(Pair(Single(5),Single(5)),Single(1)),Single(9))),
+Pair(Pair(Single(6),Pair(Pair(Single(7),Single(3)),Pair(Single(3),Single(2)))),Pair(Pair(Pair(Single(3),Single(8)),Pair(Single(5),Single(7))),Single(4))),
+Pair(Pair(Pair(Pair(Single(5),Single(4)),Pair(Single(7),Single(7))),Single(8)),Pair(Pair(Single(8),Single(3)),Single(8))),
+Pair(Pair(Single(9),Single(3)),Pair(Pair(Single(9),Single(9)),Pair(Single(6),Pair(Single(4),Single(9))))),
+Pair(Pair(Single(2),Pair(Pair(Single(7),Single(7)),Single(7))),Pair(Pair(Single(5),Single(8)),Pair(Pair(Single(9),Single(3)),Pair(Single(0),Single(2))))),
+Pair(Pair(Pair(Pair(Single(5),Single(2)),Single(5)),Pair(Single(8),Pair(Single(3),Single(7)))),Pair(Pair(Single(5),Pair(Single(7),Single(5))),Pair(Single(4),Single(4)))),])
