@@ -8,6 +8,7 @@ pub use assets_manager::{loader::RonLoader, Asset, AssetCache};
 pub use itertools::Itertools;
 pub use serde::Deserialize;
 pub use std::collections::{BTreeMap, HashMap, HashSet, VecDeque};
+pub use vek::*;
 
 pub mod days;
 pub mod util;
