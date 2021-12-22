@@ -1,5 +1,4 @@
 use crate::*;
-use bitvec::prelude::*;
 
 pub fn run() {
     part1();

@@ -5,6 +5,7 @@
 #![allow(clippy::wrong_self_convention)]
 
 pub use assets_manager::{loader::RonLoader, Asset, AssetCache};
+pub use bitvec::prelude::*;
 pub use itertools::Itertools;
 pub use serde::Deserialize;
 pub use std::collections::{BTreeMap, HashMap, HashSet, VecDeque};
