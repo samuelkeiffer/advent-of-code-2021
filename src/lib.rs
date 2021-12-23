@@ -1,5 +1,6 @@
 #![feature(bool_to_option)]
 #![feature(string_remove_matches)]
+#![feature(array_from_fn)]
 #![allow(clippy::type_complexity)]
 #![allow(clippy::needless_range_loop)]
 #![allow(clippy::wrong_self_convention)]
