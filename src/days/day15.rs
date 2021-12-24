@@ -1,5 +1,4 @@
 use crate::*;
-use pathfinding::prelude::astar;
 
 pub fn run() {
     part1();

@@ -1,0 +1,7 @@
+(((None,None,None,None,None,None,None,None,None,None,None,None,None,),
+(None,Some(Empty),Some(Empty),Some(Empty),Some(Empty),Some(Empty),Some(Empty),Some(Empty),Some(Empty),Some(Empty),Some(Empty),Some(Empty),None,),
+(None,None,None,Some(A),None,Some(C),None,Some(C),None,Some(D),None,None,None,),
+(None,None,None,Some(D),None,Some(C),None,Some(B),None,Some(A),None,None,None,),
+(None,None,None,Some(D),None,Some(B),None,Some(A),None,Some(C),None,None,None,),
+(None,None,None,Some(B),None,Some(D),None,Some(A),None,Some(B),None,None,None,),
+(None,None,None,None,None,None,None,None,None,None,None,None,None,),))
