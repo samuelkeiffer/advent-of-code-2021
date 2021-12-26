@@ -1,0 +1,19 @@
+// ([(kind: Input, target: X, input: BufferFront),
+// (kind: Multiplication, target: X, input: Value(-1)),])
+
+// ([(kind: Input, target: Z, input: BufferFront),
+// (kind: Input, target: X, input: BufferFront),
+// (kind: Multiplication, target: Z, input: Value(3)),
+// (kind: Equality, target: Z, input: Field(X)),])
+
+([(kind: Input, target: W, input: BufferFront),
+(kind: Addition, target: Z, input: Field(W)),
+(kind: Modulus, target: Z, input: Value(2)),
+(kind: Division, target: W, input: Value(2)),
+(kind: Addition, target: Y, input: Field(W)),
+(kind: Modulus, target: Y, input: Value(2)),
+(kind: Division, target: W, input: Value(2)),
+(kind: Addition, target: X, input: Field(W)),
+(kind: Modulus, target: X, input: Value(2)),
+(kind: Division, target: W, input: Value(2)),
+(kind: Modulus, target: W, input: Value(2)),])

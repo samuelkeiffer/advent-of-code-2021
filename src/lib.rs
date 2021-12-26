@@ -11,6 +11,7 @@ pub use assets_manager::{loader::RonLoader, Asset, AssetCache};
 pub use bitvec::prelude::*;
 pub use itertools::Itertools;
 pub use pathfinding::prelude::*;
+pub use rayon::prelude::*;
 pub use serde::Deserialize;
 pub use std::collections::{BTreeMap, BTreeSet, HashMap, HashSet, VecDeque};
 pub use vek::*;
