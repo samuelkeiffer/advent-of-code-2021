@@ -7,7 +7,9 @@ pub fn run() {
 
 fn part2() {}
 
-fn part1() {}
+fn part1() {
+    let Input(input) = get_input::<Input>("day-3-test");
+}
 
 #[derive(Clone, Deserialize)]
 struct Input(Vec<u32>);

@@ -1,0 +1,9 @@
+([[Some(Down),None,None,None,Some(Right),Some(Right),None,Some(Down),Some(Down),Some(Right),],
+[None,Some(Down),Some(Down),Some(Right),Some(Right),None,Some(Down),Some(Down),None,None,],
+[Some(Right),Some(Right),None,Some(Right),Some(Down),Some(Right),None,None,None,Some(Down),],
+[Some(Right),Some(Right),Some(Down),Some(Right),Some(Right),None,Some(Right),None,Some(Down),None,],
+[Some(Down),Some(Right),Some(Down),None,Some(Down),Some(Down),None,Some(Down),None,None,],
+[Some(Right),None,Some(Right),Some(Right),None,None,Some(Down),None,None,None,],
+[None,Some(Down),Some(Down),None,None,Some(Right),None,Some(Right),Some(Down),None,],
+[Some(Down),None,Some(Down),None,None,Some(Right),Some(Right),Some(Down),None,Some(Down),],
+[None,None,None,None,Some(Down),None,None,Some(Down),None,Some(Right),],])
